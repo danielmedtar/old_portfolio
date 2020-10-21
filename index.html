@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="imagenes/foto-Daniel.jpeg">
+  <title>Daniel Medina - Front End Developer</title>  
+</head>
+<body>
+  <div class="main-container">
+    <section class="navbar-container__desktop">
+      <h1>Daniel Medina</h1>
+      <nav class="lista-navbar">
+        <a href="#inicio">
+          <i class="fas fa-home"></i>Inicio
+        </a>        
+        <a href="#sobremi">
+          <i class="fas fa-user-alt"></i>Sobre Mi
+        </a>        
+        <a href="#servicios">
+          <i class="fas fa-briefcase"></i>Servicios
+        </a>
+        <a href="#estudios">
+          <i class="fas fa-user-graduate"></i>Estudios
+        </a>
+        <a href="#trabajos">
+          <i class="fas fa-code"></i>Mis Trabajos
+        </a>        
+        <a href="#form">
+          <i class="fas fa-comments"></i>Hablemos
+        </a>
+      </nav>
+    </section>
+
+    <div class="full-container">
+      <section class="navbar-container__mobile">
+        <nav class="navbar-container__mobile__list">
+          <label for="navbar" class="navbar-container__mobile__list__label">
+            <input type="checkbox" id="navbar" class="navbar-input">
+            <div class="navbar-open">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="navbar-close">
+              <i class="fas fa-times"></i>
+            </div>
+            <div class="navbar-contet">
+              <a href="index.html">
+                <i class="fas fa-home"></i>Inicio
+              </a>
+              <a href="#sobremi">
+                <i class="fas fa-user-alt"></i>Sobre Mi
+              </a>              
+              <a href="#servicios">
+                <i class="fas fa-briefcase"></i>Servicios
+              </a>      
+              <a href="#estudios">
+                <i class="fas fa-user-graduate"></i>Estudios
+              </a>      
+              <a href="#trabajos">
+                <i class="fas fa-code"></i>Mis Trabajos
+              </a>              
+              <a href="#form">
+                <i class="fas fa-comments"></i>Hablemos
+              </a>
+            </div>
+          </label>
+        </nav>
+      </section>
+
+      <section class="banner-container" id="inicio">
+        <div class="fondo-banner"></div>
+        
+        <div class="banner-container-main">
+          <img src="imagenes/foto-Daniel.jpeg" alt="avatar">
+          <h2>Daniel Armando Medina Táriba</h2>
+          <span>Front End Developer en formación.</span>
+          
+          <div class="redes-sociales">
+            <a href="https://www.linkedin.com/in/daniel-medina-tariba-01a0b347/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          
+            <a href="https://github.com/danielmedtar" target="_blank"><i class="fab fa-github"></i></a>
+          
+            <a href="https://instagram.com/danielmedtar" target="_blank"><i class="fab fa-instagram"></i></a>
+          
+            <a href="https://wa.me/542213649072" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div><!--Redes-->
+          
+          <button class="boton-small">
+            <a href="#form">Contactame</a>
+          </button>
+        </div><!--banner-container-main-->
+
+          <a class="banner-container__scroll" href="#sobremi">
+            <span class="scroll">Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+          </a>
+      </section>
+
+      <section class="container" id="sobremi">
+        <h3 class="titulo-principal">Sobre Mi</h3>
+        <div class="sobre-mi"> 
+          <img src="imagenes/foto-Daniel-completa.jpeg" alt="avatar">
+            <div class="contenido-sobremi">
+              <div class="descripcion-sobremi">
+                <span>¡Hola! Soy Daniel, nací en el año 1987 en Valencia, Venezuela. Y aunque soy Abogado de profesión, este año 2020 decidí volcarme totalmente a la tecnología, y comencé a capacitarme en Desarrollo Web.</span>
+                <button class="curriculum">
+                <a href="https://www.linkedin.com/in/daniel-medina-tariba-01a0b347/" target="_blank">Ver Curriculum</a>
+                </button>
+              </div>
+            
+              <div class="card-skills">
+                <div class="contenido-skills">
+                    <h3>HTML</h3>
+                    <div class="barra-progreso">
+                      <div class="barra-progreso-incompleta"></div>
+                    </div>
+                </div> 
+
+                <div class="contenido-skills">
+                  <h3>CSS</h3>
+                  <div class="barra-progreso">
+                    <div class="barra-progreso-incompleta"></div>
+                  </div>
+                </div> 
+
+                <div class="contenido-skills">
+                  <h3>Responsive</h3>
+                    <div class="barra-progreso">
+                      <div class="barra-progreso-incompleta"></div>
+                    </div>
+                </div> 
+              </div><!--cardskills-->
+            </div><!--contenidosobremi-->            
+        </div><!--sobremi-->
+      </section>
+
+      <section class="contenedor-servicios container" id="servicios">
+        <h3 class="titulo-principal">Servicios</h3>
+        <div class="cards-servicios">
+          <div class="servicios card-html">
+            <i class="fab fa-html5"></i>
+            <span class="card-servicios-titulo">html</span>
+            <p>Desarrollo de páginas web con la sintáxis adecuada para impulsar el SEO de tu marca.</p>
+          </div>
+
+          <div class="servicios card-css">
+            <i class="fab fa-css3-alt"></i>
+            <span class="card-servicios-titulo">css</span>
+            <p>Propiedades, estilos y colores para mantener e impulsar la imagen de tu marca.</p>
+          </div>
+
+          <div class="servicios card-responsive">
+            <i class="fas fa-mobile-alt"></i>
+            <span class="card-servicios-titulo">responsive</span>
+            <p>Posibilidad de ver tu página en distintas pantallas, sin perder su atractivo.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience-container container" id="estudios">
+        <h3 class="titulo-principal">Estudios</h3>
+        <div class="container-estudios">
+          <div class="card-estudios">
+            <div class="data-estudios">
+              <img src="imagenes/icono-rocket.jpg" alt="">
+              <span class="year">Septiembre 2020 - Octubre 2020</span>
+              <span class="academia">Rocket Code</span>
+              <p class="descripcion-estudios">Curso de HTML5 y CSS3.</p>
+              <p class="aprendizaje-estudios">En este curso aprendí sobre etiquetas, atributos, clases, sintáxis y semántica, multimedia, formularios con HTML5; de CSS3 aprendí sobre propiedades, valores, variables, modelo de caja, Flexbox y posicionamiento, así como diseño responsive usando ambas tecnologías, entre otras cosas. Un curso corto pero muy completo.</p>
+            </div>
+            
+            <div class="data-estudios">
+              <img src="imagenes/udemy.jpg" alt="">
+              <span class="year">Junio 2020 - Cursando</span>
+              <span class="academia">UDEMY</span>
+              <p class="descripcion-estudios">Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL.</p>
+              <p class="aprendizaje-estudios">Curso completo de Desarrollo Web. Hasta el momento he aprendido solo la parte de HTML5 y CSS3: Etiquetas, atributos, clases, sintáxis y semántica, multimedia, formularios; propiedades, valores, variables, modelo de caja, Flexbox, un poco de Grid y posicionamiento, así como diseño responsive utilizando ambas tecnologías</p>
+            </div>
+
+            <div class="data-estudios">
+              <img src="imagenes/google-activate.jpg" alt="">
+              <span class="year">Julio 2020. Finalizado</span>
+              <span class="academia">Google Actívate</span>
+              <p class="descripcion-estudios">Curso de Introducción al Desarrollo Web: HTML y CSS 1 y 2.</p>
+              <p class="aprendizaje-estudios">Curso principalmente teórico el cual me ayudó a entender la raíz de estas tecnologías, así como conceptos básicos de ambos, ayudándome a entender la raíz de todo.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="works-container container" id="trabajos">
+        <h3 class="titulo-principal">Mis Trabajos</h3>
+        <div class="container-trabajos">
+          <div class="card-trabajos">
+              <img src="imagenes/rocket1.jpg" alt="imagen-html">
+              <a href="https://danielmedina-rocketcode.netlify.app/" class="trabajos_mask" target="_blank">
+                <span>Proyecto final Rocket Code</span>
+              </a>
+          </div>
+
+          <div class="card-trabajos">
+              <img src="imagenes/byn.jpg" alt="imagen-css">
+              <a href="https://danielmedina-ejemplobanda.netlify.app" class="trabajos_mask" target="_blank">
+                <span>Ejemplo para banda Desorden Público</span>
+              </a>
+          </div>
+            
+          <div class="card-trabajos">
+              <img src="imagenes/anuncio2.jpg" alt="imagen-responsive">
+              <a href="https://danielmedina-bienesraices.netlify.app" class="trabajos_mask" target="_blank">
+                <span>Proyecto UDEMY Bienes Raíces</span>
+              </a>
+          </div>
+          <div class="card-trabajos">
+            <img src="imagenes/nosotros.jpg" alt="imagen-responsive">
+            <a href="https://danielmedina-blogcafe.netlify.app/" class="trabajos_mask" target="_blank">
+              <span>Proyecto UDEMY Blog de Café</span>
+            </a>
+        </div>
+        </div>
+      </section>
+
+      <section class="container" id="form">
+        <h3 class="titulo-principal">Contactame</h3>
+        <div class="container-contacto"> 
+          <div class="container-descripcion-contacto">
+            <span class="mensaje">¡Envíame un mensaje!</h4>
+            <p class="descripcion-contacto">¿Quieres saber más de mi, mis trabajos y experiencias? Envíame un mensaje y conversemos un poco.</p>
+          </div>
+          
+          <form class="formulario">
+            <div class="formulario-input">
+              <label for="name"><input type="text" id="name" placeholder="Nombre"></label>
+              <label for="e-mail"><input type="email" id="e-mail" placeholder="E-mail"></label>
+            </div>
+              
+              <label class="area-texto" for="comentario"><textarea id="comentario" placeholder="Esto es un formulario de muestra, enviame un WhatsApp..."></textarea></label>
+              
+                <button type="submit" class="boton-small submit">
+                  <a href="https://wa.me/542213649072" target="_blank">Enviar</a>
+                </button>
+          </form>
+        </div>
+      </section>
+      
+      <footer class="footer">
+        <span>Daniel Medina &copy;</span>
+        <nav class="redes-footer">
+          <a href="https://www.linkedin.com/in/daniel-medina-tariba-01a0b347/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              
+          <a href="https://github.com/danielmedtar" target="_blank"><i class="fab fa-github"></i></a>
+        
+          <a href="https://instagram.com/danielmedtar" target="_blank"><i class="fab fa-instagram"></i></a>
+        
+          <a href="https://wa.me/542213649072" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </nav>
+      </footer>
+    </div>    
+  </div>
+</body>
+</html>
