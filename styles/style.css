@@ -186,7 +186,6 @@ h1 {
 }
 .descripcion-sobremi span {
   margin-bottom: 20px;
-  text-align: justify;
   line-height: 1.7;
 }
 .curriculum {
@@ -350,7 +349,6 @@ h1 {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
-  text-align: justify;
 }
 /* WORKS */
 .container-trabajos {
@@ -485,6 +483,9 @@ input, .submit, textarea:focus {
     width: 150px;
     height: 150px;
     border-radius: 100px;
+  }
+  .banner-container__scroll {
+    display: none;
   }
   .navbar-container__desktop {
     display: none;
