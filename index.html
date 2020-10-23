@@ -232,7 +232,7 @@
             <p class="descripcion-contacto">¿Quieres saber más de mi, mis trabajos y experiencias? Envíame un mensaje y conversemos un poco.</p>
           </div>
           
-          <form class="formulario" name="contact" data-netlify="true">
+          <form class="formulario" method="POST" name="contact" data-netlify="true">
             <div class="formulario-input">
               <label for="name"><input type="text" id="name" placeholder="Nombre"></label>
               <label for="e-mail"><input type="email" id="e-mail" placeholder="E-mail"></label>
@@ -240,9 +240,7 @@
               
               <label class="area-texto" for="comentario"><textarea id="comentario" placeholder="Dejame aquí tu mensaje y te responderé a la brevedad..."></textarea></label>
               
-                <button type="submit" class="boton-small submit">
-                  <a href="https://wa.me/542213649072" target="_blank">Enviar</a>
-                </button>
+                <button type="submit" class="boton-small submit">Enviar</button>
           </form>
         </div>
       </section>
