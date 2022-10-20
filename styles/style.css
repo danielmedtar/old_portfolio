@@ -32,7 +32,7 @@ h1 {
 .navbar-container__desktop {
   min-width: 290px;
   max-width: 290px;
-  background-image: url(/imagenes/fondo_nav.png);
+  background-image: url(../imagenes/fondo_nav.png);
   padding: 60px 50px 103px;
 }
 .lista-navbar {
@@ -82,7 +82,7 @@ h1 {
 .fondo-banner {
   height: 100%;
   width: 100%;
-  background-image: url(/imagenes/fondo_banner.png);
+  background-image: url(../imagenes/fondo_banner.png);
   position: absolute;
 }
 .banner-container-main {
@@ -450,7 +450,7 @@ input, .submit, textarea:focus {
   align-items: center;
   justify-content: space-between;
   height: 50px;
-  background-image: url(/imagenes/fondo_nav.png);
+  background-image: url(../imagenes/fondo_nav.png);
   padding: 0 170px;
 }
 .footer span {
@@ -475,7 +475,7 @@ input, .submit, textarea:focus {
     padding: 40px 20px;
   }
   .full-container {
-    background-image: url(/imagenes/fondo_banner.png);
+    background-image: url(../imagenes/fondo_banner.png);
     background-size: cover;
     background-position: center center;
   }
